@@ -1,10 +1,10 @@
 def decrypt():
-    
+
     #enter your encrypted message(string) below
     encrypted_message = input("Enter the message i.e to be decrypted: ").strip()
-    
-    letters="abcdefghijklmnopqrstuvwxyz"
-    
+
+    letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
     #enter the key value to decrypt
     k = int(input("Enter the key to decrypt: "))
     decrypted_message = ""
